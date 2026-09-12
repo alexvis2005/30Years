@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#08090a">
+<meta name="description" content="Приглашение Романа Терехина. 14 октября 2026, 18:00. Кафе «В парке», Черемхово.">
+<title>Роман Терехин — приглашение</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="noise"></div>
+
+<header class="top">
+  <div class="top-mark">RT</div>
+  <div class="top-date">14 / 10 / 2026</div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero-text">
+      <p class="micro">ПРИГЛАШЕНИЕ НА ПРАЗДНИК</p>
+      <h1>Роман<br><em>Терехин</em></h1>
+      <p class="hero-note">Один вечер.<br>Много воспоминаний.<br>И повод встретиться.</p>
+      <a class="scroll" href="#details">ЛИСТАТЬ ↓</a>
+    </div>
+    <div class="hero-image-wrap">
+      <img class="hero-image" src="assets/photos/main.jpg" alt="Роман Терехин">
+      <div class="hero-image-caption"><span>ROMAN</span><span>2026</span></div>
+    </div>
+  </section>
+
+  <section class="details" id="details">
+    <div class="details-title">
+      <p class="micro">СОХРАНИ ДАТУ</p>
+      <h2>Буду ждать<br><em>тебя.</em></h2>
+    </div>
+    <div class="facts">
+      <div class="fact">
+        <span>ДАТА</span>
+        <strong>14 октября<br>2026</strong>
+      </div>
+      <div class="fact">
+        <span>ВРЕМЯ</span>
+        <strong>18:00</strong>
+      </div>
+      <div class="fact place">
+        <span>МЕСТО</span>
+        <strong>Кафе «В парке»</strong>
+        <small>г. Черемхово<br>ул. Ленина, 29</small>
+      </div>
+    </div>
+  </section>
+
+  <section class="story">
+    <div class="story-head">
+      <p class="micro">НЕМНОГО ИСТОРИИ</p>
+      <h2>От первых<br>кадров <em>до сегодня.</em></h2>
+    </div>
+
+    <div class="photo-grid">
+      <figure class="p1"><img src="assets/photos/1.jpg" alt="Фото из детства"></figure>
+      <div class="quote q1">«Время идёт,<br>а хорошие<br>истории остаются.»</div>
+      <figure class="p2"><img src="assets/photos/2.jpg" alt="Фотография"></figure>
+      <figure class="p3"><img src="assets/photos/3.jpg" alt="Фотография"></figure>
+      <figure class="p4"><img src="assets/photos/4.jpg" alt="Фотография"></figure>
+      <div class="year y1">THEN</div>
+      <figure class="p5"><img src="assets/photos/5.jpg" alt="Фотография"></figure>
+      <figure class="p6"><img src="assets/photos/6.jpg" alt="Фотография"></figure>
+      <div class="quote q2">А теперь<br>соберёмся<br><em>вместе.</em></div>
+      <figure class="p7"><img src="assets/photos/7.jpg" alt="Фотография"></figure>
+    </div>
+  </section>
+
+  <section class="final-photo">
+    <div class="final-photo-image"><img src="assets/photos/main.jpg" alt="Роман Терехин"></div>
+    <div class="final-copy">
+      <p class="micro">14 ОКТЯБРЯ · 18:00</p>
+      <h2>До встречи<br><em>в «В парке».</em></h2>
+    </div>
+  </section>
+
+  <section class="rsvp">
+    <p class="micro">ПОДТВЕРЖДЕНИЕ</p>
+    <h2>Ты придёшь?</h2>
+    <button id="yesBtn">Я приду</button>
+    <p id="answer" class="answer"></p>
+  </section>
+</main>
+
+<footer>ROMAN TERЕKHIN · 2026</footer>
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Закрыть">×</button>
+  <button class="lightbox-arrow prev" id="lightboxPrev" aria-label="Предыдущее фото">‹</button>
+  <div class="lightbox-content">
+    <img id="lightboxImage" src="" alt="">
+    <div class="lightbox-counter" id="lightboxCounter"></div>
+  </div>
+  <button class="lightbox-arrow next" id="lightboxNext" aria-label="Следующее фото">›</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
