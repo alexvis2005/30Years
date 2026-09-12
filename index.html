@@ -1,124 +1,103 @@
 <!doctype html>
 <html lang="ru">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#f3eee5">
-<title>Приглашение · Имя Фамилия</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#08090a">
+<meta name="description" content="Приглашение Романа Терехина. 14 октября 2026, 18:00. Кафе «В парке», Черемхово.">
+<title>Роман Терехин — приглашение</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="preloader"><div class="loader-word">30</div></div>
-<div class="paper-noise"></div>
+<div class="noise"></div>
 
-<header class="topbar">
-  <a href="#top" class="monogram">ИФ</a>
-  <span class="top-date">12 / 10 / 2026</span>
-  <button class="menu" aria-label="Меню"><span></span><span></span></button>
+<header class="top">
+  <div class="top-mark">RT</div>
+  <div class="top-date">14 / 10 / 2026</div>
 </header>
 
-<main id="top">
-<section class="hero">
-  <div class="hero-stamp">SAVE<br>THE<br>DATE</div>
-  <div class="hero-photo">
-    <div class="photo-placeholder">
-      <span class="photo-label">ВАШЕ ФОТО</span>
-      <div class="photo-shape"></div>
+<main>
+  <section class="hero">
+    <div class="hero-text">
+      <p class="micro">ПРИГЛАШЕНИЕ НА ПРАЗДНИК</p>
+      <h1>Роман<br><em>Терехин</em></h1>
+      <p class="hero-note">Один вечер.<br>Много воспоминаний.<br>И повод встретиться.</p>
+      <a class="scroll" href="#details">ЛИСТАТЬ ↓</a>
     </div>
-  </div>
-  <div class="hero-copy">
-    <p class="kicker">Приглашение</p>
-    <h1>Имя<br><i>Фамилия</i></h1>
-    <div class="age-row"><strong>30</strong><span>лет<br>исполняется</span></div>
-    <p class="intro">Буду рад видеть вас на вечере, который хочется сохранить в памяти.</p>
-    <a href="#invite" class="round-arrow">↓</a>
-  </div>
-</section>
+    <div class="hero-image-wrap">
+      <img class="hero-image" src="assets/photos/main.jpg" alt="Роман Терехин">
+      <div class="hero-image-caption"><span>ROMAN</span><span>2026</span></div>
+    </div>
+  </section>
 
-<section class="poster section" id="invite">
-  <div class="poster-number">01</div>
-  <div class="poster-content">
-    <span class="tiny">ONE SPECIAL EVENING</span>
-    <h2>Давайте<br><em>встретимся.</em></h2>
-    <p>30 лет — отличный повод остановиться на один вечер и собрать вместе самых важных людей.</p>
-    <div class="scribble">✦</div>
-  </div>
-</section>
+  <section class="details" id="details">
+    <div class="details-title">
+      <p class="micro">СОХРАНИ ДАТУ</p>
+      <h2>Буду ждать<br><em>тебя.</em></h2>
+    </div>
+    <div class="facts">
+      <div class="fact">
+        <span>ДАТА</span>
+        <strong>14 октября<br>2026</strong>
+      </div>
+      <div class="fact">
+        <span>ВРЕМЯ</span>
+        <strong>18:00</strong>
+      </div>
+      <div class="fact place">
+        <span>МЕСТО</span>
+        <strong>Кафе «В парке»</strong>
+        <small>г. Черемхово<br>ул. Ленина, 29</small>
+      </div>
+    </div>
+  </section>
 
-<section class="collage section">
-  <div class="collage-a"><span>02</span><b>ФОТО</b></div>
-  <div class="collage-text"><small>THE STORY</small><h3>Люди.<br>Музыка.<br>Воспоминания.</h3></div>
-  <div class="collage-b"><span>03</span><b>ФОТО</b></div>
-</section>
+  <section class="story">
+    <div class="story-head">
+      <p class="micro">НЕМНОГО ИСТОРИИ</p>
+      <h2>От первых<br>кадров <em>до сегодня.</em></h2>
+    </div>
 
-<section class="info section" id="details">
-  <div class="section-head"><span>02</span><small>ДЕТАЛИ ВЕЧЕРА</small></div>
-  <div class="info-grid">
-    <div class="info-item"><small>ДАТА</small><h3>12 октября<br>2026</h3><p>суббота</p></div>
-    <div class="info-item"><small>ВРЕМЯ</small><h3>18:00</h3><p>сбор гостей</p></div>
-    <div class="info-item wide"><small>МЕСТО</small><h3>Название<br>ресторана</h3><p>г. Москва · ул. Примерная, 10</p></div>
-  </div>
-  <a href="#map" class="black-btn">Открыть локацию <span>↗</span></a>
-</section>
+    <div class="photo-grid">
+      <figure class="p1"><img src="assets/photos/1.jpg" alt="Фото из детства"></figure>
+      <div class="quote q1">«Время идёт,<br>а хорошие<br>истории остаются.»</div>
+      <figure class="p2"><img src="assets/photos/2.jpg" alt="Фотография"></figure>
+      <figure class="p3"><img src="assets/photos/3.jpg" alt="Фотография"></figure>
+      <figure class="p4"><img src="assets/photos/4.jpg" alt="Фотография"></figure>
+      <div class="year y1">THEN</div>
+      <figure class="p5"><img src="assets/photos/5.jpg" alt="Фотография"></figure>
+      <figure class="p6"><img src="assets/photos/6.jpg" alt="Фотография"></figure>
+      <div class="quote q2">А теперь<br>соберёмся<br><em>вместе.</em></div>
+      <figure class="p7"><img src="assets/photos/7.jpg" alt="Фотография"></figure>
+    </div>
+  </section>
 
-<section class="big-photo section">
-  <div class="big-photo-frame"><div class="photo-placeholder"><span>04</span><strong>ВАШЕ<br>ФОТО</strong><small>любимый кадр</small></div></div>
-  <div class="photo-caption"><span>MEMORY NO. 04</span><em>имя · фамилия</em></div>
-</section>
+  <section class="final-photo">
+    <div class="final-photo-image"><img src="assets/photos/main.jpg" alt="Роман Терехин"></div>
+    <div class="final-copy">
+      <p class="micro">14 ОКТЯБРЯ · 18:00</p>
+      <h2>До встречи<br><em>в «В парке».</em></h2>
+    </div>
+  </section>
 
-<section class="program section">
-  <div class="section-head"><span>03</span><small>ПРОГРАММА</small></div>
-  <h2>Всё<br><em>начнётся здесь.</em></h2>
-  <div class="events">
-    <article><time>18:00</time><div><b>Welcome</b><p>Встречаем гостей, знакомимся и фотографируемся.</p></div></article>
-    <article><time>19:00</time><div><b>Dinner</b><p>Ужин, любимые блюда и разговоры до позднего вечера.</p></div></article>
-    <article><time>21:00</time><div><b>Cheers</b><p>Тосты, сюрпризы и всё то, ради чего мы собрались.</p></div></article>
-    <article><time>22:00</time><div><b>Party</b><p>Музыка становится громче. Остальное — импровизация.</p></div></article>
-  </div>
-</section>
-
-<section class="gallery section" id="gallery">
-  <div class="section-head"><span>04</span><small>ГАЛЕРЕЯ</small></div>
-  <h2>Несколько<br><em>кадров.</em></h2>
-  <div class="gallery-grid">
-    <div class="g g1"><span>05</span><b>ФОТО</b></div>
-    <div class="g g2"><span>06</span><b>ФОТО</b></div>
-    <div class="g g3"><span>07</span><b>ФОТО</b></div>
-    <div class="g g4"><span>08</span><b>ФОТО</b></div>
-  </div>
-</section>
-
-<section class="rsvp section" id="rsvp">
-  <div class="rsvp-card">
-    <span class="tiny">05 · RSVP</span>
-    <h2>Вы<br><i>придёте?</i></h2>
-    <p>Дайте знать до <b>1 октября</b>, чтобы мы всё подготовили.</p>
-    <div class="buttons"><button data-answer="Отлично! Буду ждать вас ✦">Я буду</button><button data-answer="Очень жаль. Будем скучать">Не смогу</button></div>
-    <div class="answer"></div>
-    <div class="flower">✽</div>
-  </div>
-</section>
-
-<section class="map section" id="map">
-  <div class="section-head"><span>06</span><small>АДРЕС</small></div>
-  <div class="map-card">
-    <div class="road r1"></div><div class="road r2"></div><div class="road r3"></div>
-    <div class="map-pin"></div>
-    <div class="map-label"><b>Название места</b><span>ул. Примерная, 10</span></div>
-  </div>
-  <a href="#" onclick="return false" class="black-btn">Построить маршрут <span>↗</span></a>
-</section>
-
-<footer>
-  <div class="footer-circle">30</div>
-  <h2>Имя <i>Фамилия</i></h2>
-  <p>До встречи. Будет красиво.</p>
-  <a href="#top">↑ наверх</a>
-</footer>
+  <section class="rsvp">
+    <p class="micro">ПОДТВЕРЖДЕНИЕ</p>
+    <h2>Ты придёшь?</h2>
+    <button id="yesBtn">Я приду</button>
+    <p id="answer" class="answer"></p>
+  </section>
 </main>
+
+<footer>ROMAN TERЕKHIN · 2026</footer>
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Закрыть">×</button>
+  <button class="lightbox-arrow prev" id="lightboxPrev" aria-label="Предыдущее фото">‹</button>
+  <div class="lightbox-content">
+    <img id="lightboxImage" src="" alt="">
+    <div class="lightbox-counter" id="lightboxCounter"></div>
+  </div>
+  <button class="lightbox-arrow next" id="lightboxNext" aria-label="Следующее фото">›</button>
+</div>
 <script src="script.js"></script>
-\n<script>\n(() => {\n  function confetti() {\n    const canvas=document.createElement('canvas');\n    canvas.className='confetti-canvas';\n    canvas.style.cssText='position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:99999';\n    document.body.appendChild(canvas);\n    const ctx=canvas.getContext('2d'), dpr=Math.min(devicePixelRatio||1,2);\n    function resize(){canvas.width=innerWidth*dpr;canvas.height=innerHeight*dpr;ctx.setTransform(dpr,0,0,dpr,0,0)}\n    resize();\n    const colors=['#c9a45c','#111','#e8d9b7','#7f6a4c','#fff'];\n    const p=Array.from({length:140},()=>({x:innerWidth/2+(Math.random()-.5)*120,y:innerHeight*.58,vx:(Math.random()-.5)*13,vy:-7-Math.random()*9,g:.22+Math.random()*.12,s:4+Math.random()*7,r:Math.random()*6,vr:(Math.random()-.5)*.3,a:1}));\n    let f; function tick(){ctx.clearRect(0,0,innerWidth,innerHeight);let n=0;p.forEach(x=>{x.x+=x.vx;x.y+=x.vy;x.vy+=x.g;x.vx*=.992;x.r+=x.vr;x.a-=.008;if(x.a<=0)return;n++;ctx.save();ctx.globalAlpha=x.a;ctx.translate(x.x,x.y);ctx.rotate(x.r);ctx.fillStyle=colors[Math.floor(Math.random()*colors.length)];ctx.fillRect(-x.s/2,-x.s/2,x.s,x.s*.65);ctx.restore()});if(n)f=requestAnimationFrame(tick);else canvas.remove()} tick();setTimeout(()=>{cancelAnimationFrame(f);canvas.remove()},2800);\n  }\n  document.addEventListener('click',e=>{const el=e.target.closest('button,a,[role="button"],input');if(el && /я\\s*приду/i.test(el.textContent||el.value||'')) setTimeout(confetti,80);});\n})();\n</script>\n</body>
+</body>
 </html>
