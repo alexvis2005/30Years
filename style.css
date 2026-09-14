@@ -187,3 +187,48 @@ footer{text-align:center;border-top:1px solid var(--line);padding:28px;color:#69
   .lightbox-arrow.next{right:10px}
   .lightbox-counter{bottom:-30px}
 }
+
+/* DRESS CODE */
+.dress-code{
+  margin:5vw 0 0;
+  padding:7vw 5vw;
+  border:1px solid var(--line);
+  background:
+    radial-gradient(circle at 85% 20%, rgba(215,218,221,.08), transparent 30%),
+    linear-gradient(135deg,#0b0d0f,#111315);
+  display:grid;
+  grid-template-columns:110px 1fr;
+  gap:4vw;
+  align-items:center;
+  overflow:hidden;
+  position:relative;
+}
+.dress-code:after{
+  content:"SPORT / PARTY";
+  position:absolute;
+  right:-35px;
+  bottom:20px;
+  color:rgba(255,255,255,.035);
+  font-size:clamp(45px,8vw,110px);
+  font-weight:700;
+  letter-spacing:-.06em;
+}
+.dress-icon{
+  width:90px;height:90px;border:1px solid rgba(215,218,221,.35);
+  border-radius:50%;display:grid;place-items:center;
+  font-size:28px;color:var(--silver);
+  box-shadow:0 0 40px rgba(255,255,255,.04);
+}
+.dress-code h2{
+  font-size:clamp(48px,6vw,90px);
+  line-height:.9;margin:0;letter-spacing:-.045em;
+}
+.dress-note{
+  color:#aeb3b8;font-size:14px;line-height:1.7;margin:30px 0 0;
+  max-width:560px;
+}
+@media(max-width:700px){
+  .dress-code{grid-template-columns:1fr;padding:55px 25px;gap:28px;margin-top:70px}
+  .dress-icon{width:64px;height:64px;font-size:20px}
+  .dress-note{font-size:13px}
+}
